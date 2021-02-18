@@ -18,6 +18,7 @@ struct Child: Codable {
 }
 
 struct Post: Codable {
+    let id: String
     let selftext: String
     let title: String
 }
