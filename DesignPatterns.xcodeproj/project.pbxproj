@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D34E3CA25DDE8BA008049F7 /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */; };
+		6D34E3D825DDFB25008049F7 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */; };
 		6D62D76625DC8CCE00C08FE2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62D76525DC8CCE00C08FE2 /* Networking.swift */; };
 		6D62D76C25DC8D7600C08FE2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62D76B25DC8D7600C08FE2 /* Response.swift */; };
 		6DF77B6725DC8AA00097DA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF77B6625DC8AA00097DA13 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
+		6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		6D62D76525DC8CCE00C08FE2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		6D62D76B25DC8D7600C08FE2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		6DF77B6325DC8AA00097DA13 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 				6DF77B7425DC8AA30097DA13 /* Info.plist */,
 				6D62D76525DC8CCE00C08FE2 /* Networking.swift */,
 				6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */,
+				6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D62D76C25DC8D7600C08FE2 /* Response.swift in Sources */,
+				6D34E3D825DDFB25008049F7 /* PostDetailViewController.swift in Sources */,
 				6D34E3CA25DDE8BA008049F7 /* BookmarkView.swift in Sources */,
 				6DF77B6B25DC8AA00097DA13 /* ViewController.swift in Sources */,
 				6DF77B6725DC8AA00097DA13 /* AppDelegate.swift in Sources */,
