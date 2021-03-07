@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D07449125DF468100C7A760 /* BookmarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07449025DF468100C7A760 /* BookmarkController.swift */; };
 		6D34E3CA25DDE8BA008049F7 /* BookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */; };
 		6D34E3D825DDFB25008049F7 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */; };
-		6D62D76625DC8CCE00C08FE2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62D76525DC8CCE00C08FE2 /* Networking.swift */; };
+		6D62D76625DC8CCE00C08FE2 /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62D76525DC8CCE00C08FE2 /* NetworkingController.swift */; };
 		6D62D76C25DC8D7600C08FE2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D62D76B25DC8D7600C08FE2 /* Response.swift */; };
+		6D71077525DF3AA000395792 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71077425DF3AA000395792 /* PostsTableViewController.swift */; };
+		6D71077D25DF3D7B00395792 /* PostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D71077C25DF3D7B00395792 /* PostDataSource.swift */; };
+		6D7641FD25DF52100004C8C1 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7641FC25DF52100004C8C1 /* BookViewModel.swift */; };
 		6DF77B6725DC8AA00097DA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF77B6625DC8AA00097DA13 /* AppDelegate.swift */; };
 		6DF77B6925DC8AA00097DA13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF77B6825DC8AA00097DA13 /* SceneDelegate.swift */; };
-		6DF77B6B25DC8AA00097DA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF77B6A25DC8AA00097DA13 /* ViewController.swift */; };
 		6DF77B6E25DC8AA00097DA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF77B6C25DC8AA00097DA13 /* Main.storyboard */; };
 		6DF77B7025DC8AA30097DA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF77B6F25DC8AA30097DA13 /* Assets.xcassets */; };
 		6DF77B7325DC8AA30097DA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF77B7125DC8AA30097DA13 /* LaunchScreen.storyboard */; };
@@ -31,14 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D07449025DF468100C7A760 /* BookmarkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkController.swift; sourceTree = "<group>"; };
 		6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkView.swift; sourceTree = "<group>"; };
 		6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
-		6D62D76525DC8CCE00C08FE2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		6D62D76525DC8CCE00C08FE2 /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
 		6D62D76B25DC8D7600C08FE2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		6D71077425DF3AA000395792 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		6D71077C25DF3D7B00395792 /* PostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataSource.swift; sourceTree = "<group>"; };
+		6D7641FC25DF52100004C8C1 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
 		6DF77B6325DC8AA00097DA13 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF77B6625DC8AA00097DA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF77B6825DC8AA00097DA13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DF77B6A25DC8AA00097DA13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DF77B6D25DC8AA00097DA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DF77B6F25DC8AA30097DA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DF77B7225DC8AA30097DA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,12 +72,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0C8D1325DF43F100D40F7B /* PostsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */,
+			);
+			path = PostsDetails;
+			sourceTree = "<group>";
+		};
 		6D62D76A25DC8D6A00C08FE2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				6D62D76B25DC8D7600C08FE2 /* Response.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6D71077A25DF3D4A00395792 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C8D1325DF43F100D40F7B /* PostsDetails */,
+				6D71077B25DF3D5C00395792 /* PostsTable */,
+				6D07449025DF468100C7A760 /* BookmarkController.swift */,
+				6D62D76525DC8CCE00C08FE2 /* NetworkingController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D71077B25DF3D5C00395792 /* PostsTable */ = {
+			isa = PBXGroup;
+			children = (
+				6D71077425DF3AA000395792 /* PostsTableViewController.swift */,
+				6D71077C25DF3D7B00395792 /* PostDataSource.swift */,
+			);
+			path = PostsTable;
+			sourceTree = "<group>";
+		};
+		6D7641FA25DF51F50004C8C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D7641FC25DF52100004C8C1 /* BookViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D7641FB25DF51FC0004C8C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6DF77B5A25DC8AA00097DA13 = {
@@ -95,17 +145,16 @@
 		6DF77B6525DC8AA00097DA13 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				6D7641FB25DF51FC0004C8C1 /* Views */,
+				6D7641FA25DF51F50004C8C1 /* ViewModels */,
+				6D71077A25DF3D4A00395792 /* Controllers */,
 				6D62D76A25DC8D6A00C08FE2 /* Models */,
 				6DF77B6625DC8AA00097DA13 /* AppDelegate.swift */,
 				6DF77B6825DC8AA00097DA13 /* SceneDelegate.swift */,
-				6DF77B6A25DC8AA00097DA13 /* ViewController.swift */,
 				6DF77B6C25DC8AA00097DA13 /* Main.storyboard */,
 				6DF77B6F25DC8AA30097DA13 /* Assets.xcassets */,
 				6DF77B7125DC8AA30097DA13 /* LaunchScreen.storyboard */,
 				6DF77B7425DC8AA30097DA13 /* Info.plist */,
-				6D62D76525DC8CCE00C08FE2 /* Networking.swift */,
-				6D34E3C925DDE8BA008049F7 /* BookmarkView.swift */,
-				6D34E3D725DDFB25008049F7 /* PostDetailViewController.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -219,13 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D71077D25DF3D7B00395792 /* PostDataSource.swift in Sources */,
 				6D62D76C25DC8D7600C08FE2 /* Response.swift in Sources */,
 				6D34E3D825DDFB25008049F7 /* PostDetailViewController.swift in Sources */,
 				6D34E3CA25DDE8BA008049F7 /* BookmarkView.swift in Sources */,
-				6DF77B6B25DC8AA00097DA13 /* ViewController.swift in Sources */,
 				6DF77B6725DC8AA00097DA13 /* AppDelegate.swift in Sources */,
+				6D7641FD25DF52100004C8C1 /* BookViewModel.swift in Sources */,
+				6D07449125DF468100C7A760 /* BookmarkController.swift in Sources */,
 				6DF77B6925DC8AA00097DA13 /* SceneDelegate.swift in Sources */,
-				6D62D76625DC8CCE00C08FE2 /* Networking.swift in Sources */,
+				6D62D76625DC8CCE00C08FE2 /* NetworkingController.swift in Sources */,
+				6D71077525DF3AA000395792 /* PostsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

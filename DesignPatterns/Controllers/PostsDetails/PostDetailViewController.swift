@@ -10,16 +10,37 @@ import UIKit
 class PostDetailViewController: UIViewController {
     @IBOutlet var postTitleLabel: UILabel!
     @IBOutlet var postDescriptionLabel: UILabel!
+    @IBOutlet weak var bookmarkButton: UIButton!
+
+    var post: Post!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        postTitleLabel.text = post.title
+        postDescriptionLabel.text = post.selftext
+
+        updateImage()
     }
     
     @IBAction func tappedBookmark(_ sender: Any) {
+        let isBookmarked = BookmarkController.sharedInstance.isBookmarked(post)
+
+        if isBookmarked {
+            BookmarkController.sharedInstance.removeBookmark(post: post)
+        } else {
+            BookmarkController.sharedInstance.addBookmark(post: post)
+        }
+
+        updateImage()
     }
-    
+
+    func updateImage() {
+        let image = BookmarkController.sharedInstance.image(for: post)
+        bookmarkButton.setImage(image, for: .normal)
+    }
+
     /*
     // MARK: - Navigation
 

@@ -25,6 +25,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dm5-Pe-CkV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IZv-BE-bkS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -40,13 +41,13 @@
         <!--Posts-->
         <scene sceneID="svf-h9-fvF">
             <objects>
-                <tableViewController id="RvI-go-29f" sceneMemberID="viewController">
+                <tableViewController id="RvI-go-29f" customClass="PostsTableViewController" customModule="DesignPatterns" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="mmr-WJ-cSJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="60F-ql-I4f" style="IBUITableViewCellStyleDefault" id="Cdb-5v-KWf">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" textLabel="60F-ql-I4f" style="IBUITableViewCellStyleDefault" id="Cdb-5v-KWf">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cdb-5v-KWf" id="O4T-at-3Eu">
@@ -131,6 +132,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="6c1-Fv-41C"/>
                     <connections>
+                        <outlet property="bookmarkButton" destination="LWb-iW-bOp" id="Z5b-wY-Kcx"/>
                         <outlet property="postDescriptionLabel" destination="At1-E7-ZOG" id="f0s-Qo-xv0"/>
                         <outlet property="postTitleLabel" destination="aoE-w8-p0r" id="nlu-UX-YW4"/>
                     </connections>

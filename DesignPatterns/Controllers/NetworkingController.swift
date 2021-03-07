@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Client {
+struct NetworkingController {
     static func getPosts(completion: @escaping (([Post]) -> Void)) {
         let url = URL(string: "https://reddit.com/r/swift.json")!
 
